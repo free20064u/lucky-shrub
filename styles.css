@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header >img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+}
+nav{
+    background-color: #156b28;
+}
+
+nav  ul {
+    display: block;
+    text-align: center;
+    margin: 1rem;
+    color:#ffffff;
+}
+
+ul > li {
+    display: inline;
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+main{
+    margin: 1rem 3rem .5rem 3rem;
+
+}
+
+p {
+    margin: 1rem 0;
+}
+
+#second-section {
+    display: flex;
+    margin: 2rem;
+}
+article{
+    margin:auto;
+    background-color: #ffffff;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 0px;
+}
+.article-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+}
+.article-paragraph {
+    background-color: #26b044;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+h1{
+    color: #26b044;
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+
+h4 {
+    text-align: center;
+    color: #2e653a;
+}
+
+footer {
+    display: flex;
+    background-color: #156b28;
+}
+footer > div {
+    flex: 1;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+div > img{
+    width: 30px;
+}
+
+ul > li:hover, a:hover{
+    color: #156b28;
+    background-color: #ffffff;
+}
+article{
+    width: 25%;
+    transition-property: width;
+    transition-duration: .3s;
+}
+
+article:hover, article:focus {
+    background-color: yellow;
+    width: 26%;
+
+}
